@@ -1,0 +1,30 @@
+
+#p {
+    max-width: 800px;
+    margin: 10px auto;
+    background-color: #0037ff;
+    padding: 50px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.1);
+
+}
+h1,h2 {
+    color: #ffffff;
+    background-color: rgb(36, 39, 43);
+}
+#img-div
+{
+    text-align: center;
+}
+#img1 {
+    max-width: 100%;
+    border-radius: 10%;
+}
+#tribute-info {
+    line-height: 1.6;
+}
+
+p,h4 {
+    margin-bottom: 15px;
+    color: #ffffff;;
+}
