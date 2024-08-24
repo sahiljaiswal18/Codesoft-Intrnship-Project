@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-image: url("https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?cs=srgb&dl=pexels-stywo-1261728.jpg&fm=jpg");
+    background-color: rgb(23, 6, 253);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main {
+    max-width: 1100px;
+    margin: auto;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li
+{
+    display: inline-block;
+    border:1px solid transparent;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.active{
+    background-color: aliceblue;
+    color: black;
+}
+.center_text{
+    margin-top: 250px;
+    margin-left: 530px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+#button1{
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    text-decoration: none;
+}
+#button2{
+    border: 1px solid white;
+    color: white;
+    padding:5px;
+    text-decoration: none;
+}
+#button1:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+#button:hover
+{
+    background-color: white;
+    color: black;
+    transition: 0.6s ease;
+}
+.logo
+{
+    position: relative;
+    font-size: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color: rgb(149, 15, 15);
+    text-shadow: 0 0 25px rgb(149, 15, 15),
+              0 0 50px rgb(149, 15, 15);
+    transform: scale(1,1);
+}
+span{
+    color: rgb(149, 15, 15);
+}
